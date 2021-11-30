@@ -12,8 +12,16 @@ db/*.sqlite3
 db/test
 db/development
 protosite.war
-lib/rxsugar
 .sass-cache
 *.swp
 *.css.map
 .lock-*
+
+# External libraries (cap local externals:setup)
+lib/rxsugar
+data/xslt/epidoc
+data/xslt/pn/navigator
+data/xslt/perseus/epidoc
+public/javascripts/texAce
+public/javascripts/imgspect
+data/xslt/syriaca

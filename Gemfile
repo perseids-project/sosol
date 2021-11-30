@@ -17,7 +17,6 @@ group :test do
 end
 
 gem 'jquery-rails'
-gem 'jruby-jars', File.read('.ruby-version').chomp.sub(/^jruby-/,'')
 gem 'haml', '= 4.0.6'
 
 gem 'sass'
@@ -61,5 +60,5 @@ gem 'swagger-blocks'
 gem 'bagit'
 gem 'validatable'
 gem 'rda-collections-client', :git => 'https://github.com/RDACollectionsWG/ruby-collections-client', :tag => 'v1.0.1'
-
+gem 'minitest'
 

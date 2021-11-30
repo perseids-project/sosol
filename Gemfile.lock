@@ -32,7 +32,7 @@ GIT
       faraday-cookie_jar (~> 0.0, >= 0.0.6)
 
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     actionmailer (3.2.22.5)
       actionpack (= 3.2.22.5)
@@ -108,6 +108,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     columnize (0.9.0)
+    concurrent-ruby (1.1.9)
     database_cleaner (1.6.1)
     diff-lcs (1.3)
     docopt (0.5.0)
@@ -132,7 +133,7 @@ GEM
       http-cookie (~> 1.0.0)
     faraday_middleware (0.11.0.1)
       faraday (>= 0.7.4, < 1.0)
-    ffi (1.9.18-java)
+    ffi (1.15.4-java)
     grit (2.4.1)
       diff-lcs (~> 1.1)
       mime-types (~> 1.15)
@@ -143,7 +144,8 @@ GEM
     hitimes (1.2.5-java)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    i18n (0.8.4)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jdbc-mysql (5.1.42)
     jdbc-sqlite3 (3.8.11.2)
     journey (1.0.4)
@@ -162,9 +164,10 @@ GEM
       treetop (~> 1.4.8)
     metaclass (0.0.4)
     mime-types (1.25.1)
+    minitest (5.10.3)
     mocha (1.1.0)
       metaclass (~> 0.0.1)
-    multi_json (1.13.1)
+    multi_json (1.15.0)
     multipart-post (2.0.0)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -283,10 +286,10 @@ DEPENDENCIES
   hypothesis-client!
   jdbc-sqlite3 (>= 3.6.3.054)
   jquery-rails
-  jruby-jars (= 1.7.26)
   jruby-openssl (>= 0.9.8)
   json (>= 1.6.6)
   mediawiki_api!
+  minitest
   mocha (= 1.1.0)
   nokogiri (>= 1.6.6.2)
   prototype-rails

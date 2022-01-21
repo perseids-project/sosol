@@ -22,9 +22,7 @@ gem 'haml', '= 4.0.6'
 gem 'sass'
 # gem 'json-jruby', '>= 1.6.6', :require => 'json', :platform => :jruby
 gem 'json', '>=1.6.6'
-gem 'jdbc-sqlite3', '>= 3.6.3.054', :platform => :jruby
 gem 'activerecord-jdbc-adapter', '>= 0.9.2', :platform => :jruby
-gem 'activerecord-jdbcsqlite3-adapter', '>= 0.9.2', :platform => :jruby
 gem 'activerecord-jdbcmysql-adapter', '>= 0.9.2', :platform => :jruby
 gem 'rack', '>= 1.1.0'
 gem 'shoulda-matchers', '>= 2.0.0'
